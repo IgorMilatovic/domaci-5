@@ -1,0 +1,39 @@
+
+body {
+	background-color: #d9ffb3;
+}
+
+article {
+	width: 80%;
+	max-width: 400px;
+	margin: 20px auto 0;
+	background-color: orange;
+	border-radius: 10px;
+	box-shadow: 0 0 2px 1px black;
+}
+
+.text {
+	padding: 10px;
+	text-align: justify;
+	margin: 0 20px;
+	text-shadow: 0 0 1px 1px grey;
+}
+
+.cover {
+	background: url(indian.jpg);
+	height: 200px;
+	background-position: center center;
+	background: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+@font-face {
+	font-family: "XXII ARABIAN-ONENIGHTSTAND";
+	src: url("XXII ARABIAN-ONENIGHTSTAND.ttf");
+}
+
+p {
+	font-family: "XXII ARABIAN-ONENIGHTSTAND";
+}
+
+
